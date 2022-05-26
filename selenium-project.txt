@@ -1,0 +1,12 @@
+- JAVA
+- Eclipse / Intellij Idea
+- Selenium project
+- Add dependency on pom.xml
+https://www.selenium.dev/documentation/webdriver/getting_started/install_library/
+https://mvnrepository.com/artifact/org.seleniumhq.selenium
+- Browser driver
+https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
+
+
+
+- TestNG
