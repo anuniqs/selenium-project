@@ -1,12 +1,39 @@
-- JAVA
-- Eclipse / Intellij Idea
-- Selenium project
-- Add dependency on pom.xml
+Setup,
+
+Step Ek - JAVA should be installed 
+
+Step Dui - Eclipse / Intellij Idea
+
+Step Tin - Create a Selenium project
+
+Step Char - Add dependency on pom.xml , Available on below address
 https://www.selenium.dev/documentation/webdriver/getting_started/install_library/
 https://mvnrepository.com/artifact/org.seleniumhq.selenium
-- Browser driver
+
+
+Step Panch - Browser driver, avalibale on below address
 https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
 
 
-
 - TestNG
+- JUnit
+
+
+
+Coding,
+
+Driver Initialization Basics,
+WebDriver driver = new FirefoxDriver();
+
+
+Driver Initialization Advanced,
+System.setProperty("webdriver.firefox.driver", System.getProperty("user.dir")+"/src/test/java/geckodriver.exe");
+WebDriver driver = new FirefoxDriver();
+
+
+Selenium Locators,
+
+
+Selenium Navigators,
+driver.get("https://selenium.dev");
+
